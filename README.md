@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Rick and Morty Character Viewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Screenshot](screenshot.png)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+The Rick and Morty Character Viewer is a simple web application that utilizes the Rick and Morty API to display characters from the show along with some details about them. This project was built using React and React Query, making it easy to fetch and display character data from the API.
 
-### `npm start`
+This was my first time working with APIs and my first project with it. You can use this as a template for your other simple API related projects.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This [video](https://youtu.be/NQULKpW6hK4?si=_IPgS47bLcCCLu0N
+) properly explains what the code does exactly and is what I used to make this project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+It is super easy to follow as long as you know basic Java Script.
 
-### `npm test`
+Enjoy!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- View a list of Rick and Morty characters.
+- See details of the characters eg: dead or alive.
+- Smooth and efficient data fetching with React Query.
+- Paginations for seeing other characters
+- Responsive design.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies
+- React
+- React Query
+- HTML
+- CSS
 
-### `npm run eject`
+## Docs
+For more info on the Rick and Morty API visit their site:
+https://rickandmortyapi.com/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+For more info on React Query visit their site:
+https://tanstack.com/query/latest/docs/react/overview
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run this project locally, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone this repository to your local machine:
 
-## Learn More
+```bash
+git clone https://github.com/Battlearmour2000/rick-and-morty
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Navigate to the project directory:
+    
+```bash
+cd rick-and-morty-character-viewer
+```
+3. Install the required dependencies:
+```bash
+npm install
+```
+4. Start the development server
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open your web browser and access the application at http://localhost:3000.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Contact
+If you have any questions or suggestions, feel free to reach out to me at vishani.mj@gmail.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Thank you and hope you have fun!
