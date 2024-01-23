@@ -13,6 +13,8 @@ This [video](https://youtu.be/NQULKpW6hK4?si=_IPgS47bLcCCLu0N
 
 It is super easy to follow as long as you know basic Java Script.
 
+If you'd like to see it in action click [here](https://rick-and-morty-eta-khaki.vercel.app/).
+
 Enjoy!
 
 
